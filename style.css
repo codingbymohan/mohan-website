@@ -1,0 +1,349 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header a {
+    text-align: center;
+  }
+ 
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-left: 10px;
+  }
+  
+  nav li:first-child {
+    margin-left: 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  section .tutorial-card{
+    background-color: seashell;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  section .tutorial-card a {
+    color: white;
+    text-decoration: none;
+    background-color: orangered;
+    padding: 5px 12px;
+    border-radius: 6px;
+  }
+
+  section .convertor{
+    background-color: greenyellow;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 5px 12px;
+    border-radius: 6px;
+  }
+
+  .image{
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 5px 12px;
+    border-radius: 6px;
+  }
+
+  .name{
+    background-color: lavender;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 5px 12px;
+    border-radius: 6px;
+  }
+
+  section .technology-card{
+    background-color: aliceblue;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+  section .matter{
+    background-color: peachpuff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  section .matter a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: orangered;
+    padding: 5px 12px;
+    border-radius: 6px;
+  }
+
+.project-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .project-card a {
+    color: black;
+    text-decoration: none;
+    background-color: aqua;
+    padding: 5px 12px;
+    border-radius: 6px;
+  }
+  
+  .project-card a:hover {
+    background-color: #ddd;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin-bottom: 5px;
+  }
+  
+  form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #444;
+  }
+
+.event-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .event-card a {
+    color: #333;
+    text-decoration: none;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .event-card a:hover {
+    background-color: #ddd;
+  }
+
+.team-members {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .team-members li {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .team-members li img {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+  
+  .testimonial {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+      
+
+.programming-languages {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .programming-languages li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .resources-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .resources-list li {
+    margin-bottom: 10px;
+  }
+
+.blog-post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .blog-post a {
+    color: #333;
+    text-decoration: none;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  .about{
+    background-color: oldlace;
+  }
+  
+  .blog-post a:hover {
+    background-color: #ddd;
+  }
+  
+  .faq {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+
+.course {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .course a {
+    color: #333;
+    text-decoration: none;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .course a:hover {
+    background-color: #ddd;
+  }
+
+.project {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .project a {
+    color: #333;
+    text-decoration: none;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .project a:hover {
+    background-color: #ddd;
+  }
+  
+  section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  section form label {
+    margin-bottom: 5px;
+  }
+  
+  section form input {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  section form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  section form button:hover {
+    background-color: #444;
+  }
+
+.blog-feed {
+    display: flex;
+  }
+  
+  .blog-post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 0 10px 10px 0;
+  }
+  
+  .blog-post a {
+    color: #333;
+    text-decoration: none;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .blog-post a:hover {
+    background-color: #ddd;
+  }
+  
+  .social-media-links {
+    display: flex;
+  }
+  
+  .social-media-links a {
+    margin-right: 10px;
+  }
+  
+  .social-media-links img {
+    width: 30px;
+    height: 30px;
+  }
+      
